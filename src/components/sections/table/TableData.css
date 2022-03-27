@@ -2,13 +2,9 @@
   background-color: #313131;
   border-color: rgb(124, 122, 122);
   text-align: left;
-  margin-left: 10;
-}
-.header h2, h3 {
- text-align: left;
- margin-left: 20px;
- color: #fff;
- font-size: 30px;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 30px;
 }
 .header p {
   color: #fff;
@@ -48,8 +44,29 @@
   color: black;
 }
 
-@mixin break {
-  thead {
+@media screen and (max-width: 600px) {
+  .banner-titles-container{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .header-portfolio{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .banner-titles-others{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .banner-titles-others {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+
+
+
+thead {
     display: none;
   }
 
@@ -85,7 +102,6 @@
       justify-content: center;
     }
   }
-}
 
 *, *::before, *::after {
   box-sizing: border-box;

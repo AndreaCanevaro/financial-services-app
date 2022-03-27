@@ -15,7 +15,6 @@ const TableHeader = ({ title }) => {
           <h3 className='header-others'>About</h3>
           <h3 className='header-others'>Performance</h3>
           <h3 className='header-others'>Closed Trades</h3>
-          <h3 className='header-others-space'>--------------------------------------------------------</h3>
       </div>
       </div>
     </header>
