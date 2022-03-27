@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .header {
     background-color: #313131;
     border-color: rgb(124, 122, 122);
@@ -6,21 +12,26 @@
     color: #fff;
     font-size: 30px;
     margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  
   }
   .header h2 {
     text-align: left;
     margin-top: 30px;
+    margin-bottom: 30px;
     margin-left: 20px;
     color: #fff;
     font-size: 25px;
     font-family: sans-serif;
     font-weight: lighter;
-
+    display: block;
 }
   .header p {
     color: #fff;
     text-align: left;
     margin-left: 25px;
+    margin-bottom: 30px;
     font-size: small;
     font-family: sans-serif
   }
@@ -29,20 +40,25 @@
     padding: 20px;
     justify-content: flex-start;
     font-size: 20px;
-    font-family: sans-serif
+    font-family: sans-serif;
+    width: 100%;
   }
   .header-portfolio{
     color: #fff;
     border-left: orange;
-    padding: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     justify-content: flex-start;
     font-size: 18px;
     font-weight: lighter;
-    font-family: sans-serif
+    font-family: sans-serif;
+    width: 10%;
   }
   .banner-titles-others{
     border-color: black;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: black;
     color: #fff;
     display: flex;
@@ -50,29 +66,18 @@
     justify-content: space-around;
     font-size: 18px;
     font-weight: lighter;
-    font-family: sans-serif
+    font-family: sans-serif;
+    width: 90%;
   }
   .header-others{
     justify-content: flex-start;
     margin-left: 50px;
     font-size: 18px;
     font-weight: lighter;
-    font-family: sans-serif
+    font-family: sans-serif;
   }
 
-
-
-  
-body{
-	margin:0;
-	padding:20px;
-	font-family: sans-serif;
-}
-
-*{
-	box-sizing: border-box;
-}
-
+/*table*/
 .table{
     align-items: center;
 	width: 80%;
@@ -96,9 +101,45 @@ body{
 	background-color: #f5f5f5;
 }
 
-/*responsive*/
+/*header-bottom*/
+.header-bottom{
+    flex-wrap: wrap;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+}
+.header-bottom-title-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-bottom-title h4{
+    width: 30%;
+}
+.header-bottom-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+    font-size: 12px;
+}
+.header-bottom-data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+    font-size: 25px;
+}
 
-@media(max-width: 500px){
+
+
+/*responsive*/
+@media(min-width: 768px){
+}
+
+
+@media(max-width: 300px){
+    .header{
+     
+    }
+    .header h2 {
+    }
 	.table thead{
 		display: none;
 	}
