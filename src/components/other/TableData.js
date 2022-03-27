@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './TableData.css';
+import './TableData1.css';
 
 import TableHeader from './TableHeader';
 import Table from './Table';

@@ -30,6 +30,7 @@ export default function Table({tableData, headingColumns, title, breakOn = 'medi
   })
 
   return (
+    <div className='header'>
     <div className='table-container'>
       <div className='table-container__title'>
         <h2>{title}</h2>
@@ -46,6 +47,7 @@ export default function Table({tableData, headingColumns, title, breakOn = 'medi
           {data}
         </tbody>
       </table>
+    </div>
     </div>
   )
 }

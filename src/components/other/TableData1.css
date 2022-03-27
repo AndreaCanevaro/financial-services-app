@@ -5,6 +5,7 @@
   margin-left: 20px;
   color: #fff;
   font-size: 30px;
+  margin-bottom: 0px;
 }
 .header p {
   color: #fff;
@@ -49,6 +50,21 @@
   color: black;
 }
 
+
+
+.table-container{
+  background-color: #313131;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 0px;
+}
+.table-container__table{
+  background-color: #313131;
+}
+
+
+
 @media screen and (max-width: 600px) {
   .banner-titles-container{
     display: flex;
@@ -68,16 +84,16 @@
   }
 }
 
-thead {
+.table-container thead {
     display: none;
   }
 
-tr {
+.table-container tr {
     display: block;
     margin-bottom: 5px;
   }
 
-td {
+.table-container td {
     display: block;
     position: relative;
     padding-left: 130px;
@@ -164,13 +180,27 @@ body {
       text-align: center;
     }
 
+
+
+
+
+
+
+
+
 @media (max-width: 991px) {
-        
+  .table-container__table--break-sm{
+    break-after: column;
+  }
       }
 
 @media (max-width: 767px) {
-        
+  .table-container__table--break-md{
+    break-after: column;
       }
+    }
 @media (max-width: 575px) {
-        
+  .table-container__table--break-lg{
+    break-after: column;   
       }
+    }
