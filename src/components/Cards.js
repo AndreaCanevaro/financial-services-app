@@ -72,11 +72,7 @@ function Cards() {
 
           <h3 className='cards-titles'>About ASX Grouth Portfolio</h3>
           <ul className='cards__items-video'>
-             <CardItem
-              src='videos/video-3.mp4'
-              path='/services'
-            />
-          </ul>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/EzghUOScJXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ul>
           <h3 className='cards-titles'>Dividends, IPOs and more</h3>
         </div>
       </div>

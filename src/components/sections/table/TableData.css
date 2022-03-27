@@ -11,12 +11,14 @@
   text-align: left;
   margin-left: 25px;
   font-size: small;
+  font-family: sans-serif
 }
 .banner-titles-container{
   display: flex;
   padding: 20px;
   justify-content: flex-start;
   font-size: 20px;
+  font-family: sans-serif
 }
 .header-portfolio{
   color: #fff;
@@ -24,6 +26,7 @@
   padding: 10px;
   justify-content: flex-start;
   font-size: 20px;
+  font-family: sans-serif
 }
 .banner-titles-others{
   border-color: black;
@@ -34,11 +37,13 @@
   padding: 10px;
   justify-content: space-around;
   font-size: 20px;
+  font-family: sans-serif
 }
 .header-others{
   justify-content: flex-start;
   margin-left: 50px;
   font-size: 20px;
+  font-family: sans-serif
 }
 .header-others-space{
   color: black;
@@ -63,30 +68,29 @@
   }
 }
 
-
-
-
 thead {
     display: none;
   }
 
-  tr {
+tr {
     display: block;
     margin-bottom: 5px;
   }
 
-  td {
+td {
     display: block;
     position: relative;
     padding-left: 130px;
     text-align: left;
     border-bottom: 0;
+}
 
-    &:last-child {
-      border-bottom: 1px solid $border-color;
+td:last-child {
+      border-bottom: 1px solid 
+      border-color;
     }
 
-    &::before {
+td::before {
       content: attr(data-heading);
       position: absolute;
       top: 0;
@@ -95,13 +99,12 @@ thead {
       height: 100%;
       display: flex;
       align-items: center;
-      background-color: $primary-color;
-      color: $light-color;
+      background-color: primary-color;
+      color: light-color;
       font-size: 0.75rem;
       padding: 0 5px;
       justify-content: center;
     }
-  }
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -109,81 +112,65 @@ thead {
 } 
 
 body {
-  font-family: $ff-primary;
+  font-family: sans-serif;
 }
-
 .header {
   padding: 50px 15px;
-  background-color: $bg-color;
+  background-color: #313131;
   text-align: center;
   margin-bottom: 40px;
-
-  h1 {
-    font-size: 40px;
-    font-weight: 300;
-  }
 }
+.header h2 {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 20px;
+    font-family: sans-serif;
+
+  }
 
 .table-container {
   max-width: 800px;
   width: 90%;
   margin: 0 auto 40px;
-
-  &__title {
-    background-color: $highlight-color;
-    color: $light-color;
+}
+.table-container__title {
+    background-color: ;
+    color: ;
     text-align: center;
     padding: 10px;
-
-    h2 {
+}
+.table-container__title h2 {
       font-size: 24px;
       font-weight: 300;
     }
-  }
 
-  &__table {
+.table-container table {
     width: 100%;
     border-collapse: collapse;
+}
+.table-container thead {
 
-    thead {
+}
 
-      tr {
+.table-container tr {
         background-color: transparent;
-      }
-    }
+}
 
-    td, th {
-      border: 1px solid $border-color;
+
+.table-container td, th {
+      border: 1px solid;
       padding: 10px;
       text-align: center;
     }
 
-    tr {
-
-      &:nth-child(even) {
-        background-color: $bg-color;
+@media (max-width: 991px) {
+        
       }
-    }
 
-    &--break-lg {
-
-      @media (max-width: 991px) {
-        @include break;
+@media (max-width: 767px) {
+        
       }
-    }
-
-    &--break-md {
-
-      @media (max-width: 767px) {
-        @include break;
+@media (max-width: 575px) {
+        
       }
-    }
-
-    &--break-sm {
-
-      @media (max-width: 575px) {
-        @include break;
-      }
-    }
-  }
-}
