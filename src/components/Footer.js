@@ -9,43 +9,14 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>Rivkin Securities</Link>
-            <Link to='/'>Adress</Link>
-            <p>1 Kings Cross Road, Rushcutters Bay, NSW 2011</p>
-            <Link to='/'>Phone</Link>
-            <p>1 300 748 546 (1300 RIVKIN) </p>
+            <h3>Rivkin Securities</h3>
+            <p className='footer-link-items-column1'>Address</p>
+            <p className='footer-link-items-column1'>1 Kings Cross Road, Rushcutters Bay, NSW 2011</p>
+            <p className='footer-link-items-column2'>Phone</p>
+            <p className='footer-link-items-column2'>1 300 748 546 (1300 RIVKIN) </p>
           </div>
           <div class='footer-link-items'>
-            <h2>Follow Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
-        </div>
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-
-            <Link to='/' className='social-logo'>
-            <img src="/images/logo-w.png" alt="logo" width="200" />
-            </Link>
-
-          </div>
-          <small class='website-rights'>RIVKIN © 2022</small>
-          <div class='social-icons'>
+            <h3>Follow Us</h3>
             <Link
               class='social-icon-link facebook'
               to='/'
@@ -86,6 +57,21 @@ function Footer() {
             >
               <i class='fab fa-linkedin' />
             </Link>
+          </div>
+        </div>
+        <div className='footer-link-wrapper'>
+          
+          <div class='footer-link-items'>
+            <h3>Explore</h3>
+            <Link to='/'>Resources</Link>
+          </div>
+        </div>
+      </div>
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          <small class='website-rights'>RIVKIN © 2022     Contact      Terms & Conditions     FSG      Privacy Policy      Important Reading      Trading & Performance Policy      Key Concepts</small>
+          <div class='social-icons'>
+          
           </div>
         </div>
       </section>
