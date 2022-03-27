@@ -1,11 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-$bg-color: #f1f1f1;
-$primary-color: #000;
-$highlight-color: #e10600;
-$light-color: #fff;
-$border-color: #ddd;
-$ff-primary: 'Poppins', sans-serif;
+.header {
+  background-color: #313131;
+  border-color: rgb(124, 122, 122);
+  text-align: left;
+  margin-left: 10;
+}
+.header h2, h3 {
+ text-align: left;
+ margin-left: 20px;
+ color: #fff;
+ font-size: 30px;
+}
+.header p {
+  color: #fff;
+  text-align: left;
+  margin-left: 25px;
+  font-size: small;
+}
+.banner-titles-container{
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+.header-portfolio{
+  color: #fff;
+  border-left: orange;
+  padding: 10px;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+.banner-titles-others{
+  border-color: black;
+  border-radius: 10px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.header-others{
+  justify-content: flex-start;
+  margin-left: 50px;
+  font-size: 20px;
+}
+.header-others-space{
+  color: black;
+}
 
 @mixin break {
   thead {

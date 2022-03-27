@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import '../../App.css';
 import TableData from '../sections/table/TableData';
 import Cards from '../Cards';
-/*import HeroSection from '../HeroSection';
-import TableAssets from '../TableAssets';*/
+/*import HeroSection from '../HeroSection';*/
 import Footer from '../Footer';
 
 function Home() {

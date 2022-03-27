@@ -95,7 +95,7 @@ const holdsData = [
 const TableData = () => {
   return (
     <Fragment>
-      <TableHeader title="Portfolio" />
+      <TableHeader title="Welcome to Rivkin ASX Growth Portfolio" />
       <Table 
         tableData={holdsData}
         headingColumns={['Name', 'Action', 'Rank', 'Strategy', 'Quantity', 'Entry Date', 'Entry Price', 'Current Price', 'Current Value', 'Return Percentage']}
