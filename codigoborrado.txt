@@ -1,0 +1,55 @@
+            
+            RIVKIN
+            <i class='fab fa-typo3' />
+
+
+<div className='hero-btns'>
+        <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          WATCH TRAILER <i className='far fa-play-circle' />
+        </Button>
+      </div>
+
+
+
+
+<video src='/videos/video-1.mp4' autoPlay loop muted />
+
+
+Abajo de la tabla:
+<h5>Past performance is not a guarantee to future performance. The event trade portfolio expected return was calculated as an average return from past trades 14/06/2016 to 15/02/2021. Please note that some trades were done purely based on franking credit benefits. To learn more please go to ASX Event Portfolio</h5>
+         
+
+About:
+<Link to='/sign-up'><h5>How it works</h5></Link>
+        <Link to='/'><h5>Testimonials</h5></Link>
+        <Link to='/'><h5>Careers</h5></Link>
+        <Link to='/'><h5>Investors</h5></Link>
+        <Link to='/'><h5>Terms of Service</h5></Link>
+        
+
+
+
+En Home:
+<HeroSection />
+      <Switch>
+          <Route path='/tableassets' component={TableAssets}/>
+      </Switch>
+      
+
+En TableBanner, línea 25
+div className="row">
+        <input type="text" placeholder="Search a Coin" className="form-control bg-dark text-light border-0 mt-4 text-center" onChange={e => setSearch(e.target.value)}/>
+       
+
