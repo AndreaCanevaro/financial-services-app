@@ -24,7 +24,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>Pilbara Minerals (PLS:ASX)</td>
+        <td className='table-names' data-label='Name'>Pilbara Minerals (PLS:ASX)</td>
         <td data-label='Action'>HOLD</td>
         <td data-label='Rank'>1</td>
         <td data-label='Strategy'>Mom</td>
@@ -40,7 +40,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>South32 (S32:ASX)</td>
+        <td className='table-names' data-label='Name'>South32 (S32:ASX)</td>
         <td data-label='Action'>HOLD</td>
         <td data-label='Rank'>2</td>
         <td data-label='Strategy'>Mom</td>
@@ -56,7 +56,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>IGO (IGO:ASX)</td>
+        <td className='table-names' data-label='Name'>IGO (IGO:ASX)</td>
         <td data-label='Action'>HOLD</td>
         <td data-label='Rank'>3</td>
         <td data-label='Strategy'>Mom</td>
@@ -72,7 +72,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>Woodside Petroleum (WPL:ASX)</td>
+        <td className='table-names' data-label='Name'>Woodside Petroleum (WPL:ASX)</td>
         <td className='buysell' data-label='Action'>BUY</td>
         <td data-label='Rank'>4</td>
         <td data-label='Strategy'>Mom</td>
@@ -88,7 +88,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>Computershare (CPU:ASX)</td>
+        <td className='table-names' data-label='Name'>Computershare (CPU:ASX)</td>
         <td className='buysell' data-label='Action'>BUY</td>
         <td data-label='Rank'>5</td>
         <td data-label='Strategy'>Mom</td>
@@ -104,7 +104,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>Origin Energy (ORG:ASX)</td>
+        <td className='table-names' data-label='Name'>Origin Energy (ORG:ASX)</td>
         <td className='buysell' data-label='Action'>SELL</td>
         <td data-label='Rank'>6</td>
         <td data-label='Strategy'>Mom</td>
@@ -120,7 +120,7 @@ return (
 
     <tbody>
         <tr>
-        <td data-label='Name'>Metcash (MTS:ASX)</td>
+        <td className='table-names' data-label='Name'>Metcash (MTS:ASX)</td>
         <td className='buysell' data-label='Action'>SELL</td>
         <td data-label='Rank'>7</td>
         <td data-label='Strategy'>Mom</td>

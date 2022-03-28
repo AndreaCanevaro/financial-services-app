@@ -85,8 +85,11 @@
 .percentage{
   color: #26cf3c;
 }
-.buy{
+.buysell{
   color: #a71f79;
+}
+.table-names{
+  color: #f88707;
 }
 
 .table tbody tr:nth-child(even){
