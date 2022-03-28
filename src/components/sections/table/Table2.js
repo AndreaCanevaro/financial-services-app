@@ -33,7 +33,7 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
@@ -49,7 +49,7 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
@@ -65,7 +65,7 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
@@ -73,7 +73,7 @@ return (
     <tbody>
         <tr>
         <td data-label='Name'>Woodside Petroleum (WPL:ASX)</td>
-        <td data-label='Action'>BUY</td>
+        <td className='buysell' data-label='Action'>BUY</td>
         <td data-label='Rank'>4</td>
         <td data-label='Strategy'>Mom</td>
         <td data-label='Quantity'>1,188</td>
@@ -81,7 +81,7 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
@@ -89,7 +89,7 @@ return (
     <tbody>
         <tr>
         <td data-label='Name'>Computershare (CPU:ASX)</td>
-        <td data-label='Action'>BUY</td>
+        <td className='buysell' data-label='Action'>BUY</td>
         <td data-label='Rank'>5</td>
         <td data-label='Strategy'>Mom</td>
         <td data-label='Quantity'>1,188</td>
@@ -97,7 +97,7 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
@@ -105,7 +105,7 @@ return (
     <tbody>
         <tr>
         <td data-label='Name'>Origin Energy (ORG:ASX)</td>
-        <td data-label='Action'>SELL</td>
+        <td className='buysell' data-label='Action'>SELL</td>
         <td data-label='Rank'>6</td>
         <td data-label='Strategy'>Mom</td>
         <td data-label='Quantity'>1,188</td>
@@ -113,7 +113,7 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
@@ -121,7 +121,7 @@ return (
     <tbody>
         <tr>
         <td data-label='Name'>Metcash (MTS:ASX)</td>
-        <td data-label='Action'>SELL</td>
+        <td className='buysell' data-label='Action'>SELL</td>
         <td data-label='Rank'>7</td>
         <td data-label='Strategy'>Mom</td>
         <td data-label='Quantity'>1,188</td>
@@ -129,14 +129,12 @@ return (
         <td data-label='Entry Price'>$2.75</td>
         <td data-label='Current Price'>$2.80</td>
         <td data-label='Current Value'>$4,726.80</td>
-        <td data-label='Return Percentage'>16.37%</td>
+        <td className='percentage' data-label='Return Percentage'>16.37%</td>
         </tr>
     </tbody>
 
     </table>
     </div>
-    
-  
 
 )}
 
