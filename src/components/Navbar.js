@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="/images/logo-w.png" alt="logo" width="200" />
+          <img src="/images/logo-w.png" alt="logo" width="300" />
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>
@@ -67,7 +67,7 @@ function Navbar() {
             
             
             <div className='nav-item-third'>
-            <li className='nav-item-contact'>
+            <li className='nav-item'>
               <Link
                 to='/contact'
                 className='nav-links'

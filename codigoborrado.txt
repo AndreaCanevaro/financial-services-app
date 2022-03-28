@@ -1,6 +1,5 @@
-            
-            RIVKIN
-            <i class='fab fa-typo3' />
+  RIVKIN
+<i class='fab fa-typo3' />
 
 
 <div className='hero-btns'>
@@ -21,15 +20,6 @@
         </Button>
       </div>
 
-
-
-
-<video src='/videos/video-1.mp4' autoPlay loop muted />
-
-
-Abajo de la tabla:
-<h5>Past performance is not a guarantee to future performance. The event trade portfolio expected return was calculated as an average return from past trades 14/06/2016 to 15/02/2021. Please note that some trades were done purely based on franking credit benefits. To learn more please go to ASX Event Portfolio</h5>
-         
 
 About:
 <Link to='/sign-up'><h5>How it works</h5></Link>

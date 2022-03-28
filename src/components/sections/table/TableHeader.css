@@ -14,7 +14,7 @@
     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
   
   }
   .header h2 {
@@ -84,17 +84,17 @@
     align-items: center;
 	width: 100%;
 	border-collapse: collapse;
+  margin-bottom: 50px;
 }
 
 .table td,.table th{
-  padding:7px 5px;
+  padding:10px 10px;
   text-align: center;
   font-size:12px;
-  
+  box-sizing: border-box;
 }
 
 .table th{
-	background-color:;
 	color:#ffffff;
     
 }
@@ -104,15 +104,12 @@
     
 }
 
-
-
-
 /*responsive*/
 @media(min-width: 768px){
 }
 
 
-@media(max-width: 300px){
+@media(max-width: 500px){
     .header{
      
     }
