@@ -12,23 +12,21 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
 
-          <div className='cards__items1'>
-            <img src='images/img-stocks1.jpg'
+           <img className='cards__items1'src='images/img-stocks1.jpg'
               path='/services'
             />
-            <img src='images/img-stocks2.jpg'
+            <img className='cards__items1' src='images/img-stocks2.jpg'
               path='/services'
             />
-            <img src='images/img-stocks3.jpg'
+            <img className='cards__items1' src='images/img-stocks3.jpg'
               path='/services'
             />
-            <img src='images/img-stocks4.jpg'
+            <img className='cards__items1' src='images/img-stocks4.jpg'
               path='/services'
             />
-            <img src='images/img-stocks5.jpg'
+            <img className='cards__items1' src='images/img-stocks5.jpg'
               path='/services'
             />
-          </div>
           </div>
       </div>
       </div>

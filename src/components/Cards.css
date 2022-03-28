@@ -7,7 +7,7 @@
     .cards .cards-titles{
       color: black;
       text-align: left;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       margin-left: 10px;
       font-size: 25px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,34 +18,28 @@
     .cards__container1 {
       display: flex;
       align-items: center;
-      max-width: 1120px;
+      max-width: 1500px;
       width: 90%;
-      margin: 0 auto;
       margin-bottom: 60px;
     
     }
 
-    .cards__wrapper1 {
+    /*.cards__wrapper1 {
       position: relative;
       margin-bottom: 60px;
-    }
+    }*/
 
       .cards__item1 {
         display: flex;
-        flex: 1;
-        margin: 0 1rem;
+        margin: 0 10rem;
         border-radius: 3px;
         margin-bottom: 60px;
-        width:80%
-      }
-      .cards__item1, img{
-        width: 20%;
         position: relative;
+        align-items: flex-start;
       }
       
     /*Latest Updates*/
-    
-    
+       
     .cards__container {
           display: flex;
           align-items: center;

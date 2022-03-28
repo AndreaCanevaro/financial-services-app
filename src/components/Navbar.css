@@ -21,11 +21,12 @@
 
 .navbar-logo {
   justify-self: start;
-  margin-left: 15px;
   cursor: pointer;
-  width: 80%;
+  width: 20%;
   display: flex;
-  align-items: center;
+  position: relative;
+  align-items: flex-start;
+
 }
 
 .nav-menu {
@@ -77,11 +78,12 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 760px) {
   .navbar-logo {
     display: flex;
     align-items: flex-start;
-    width: 100%;
+    width: 30%;
+ 
   }
   .btn--outline{
     display: block;
@@ -131,10 +133,7 @@
   .navbar-logo {
     position: absolute;
     align-items: left;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 10%);
-
+    
   }
 
   .menu-icon {
