@@ -37,6 +37,7 @@ function Navbar() {
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Rivkin 
@@ -63,17 +64,20 @@ function Navbar() {
                 <div className='nav-item-second'>Services</div>
               </Link>
             </li>
+            
+            
             <div className='nav-item-third'>
-            <li className='nav-item-search'>
+            <li className='nav-item-contact'>
               <Link
-                to='/search'
+                to='/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Search
+                Contact Us
               </Link>
             </li>
             </div>
+
 
             <li>
               <Link

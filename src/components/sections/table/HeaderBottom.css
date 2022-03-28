@@ -1,0 +1,25 @@
+/*header-bottom*/
+.header-bottom{
+    flex-wrap: wrap;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+}
+.header-bottom-title-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-bottom-title h4{
+    width: 30%;
+}
+.header-bottom-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+    font-size: 12px;
+}
+.header-bottom-data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter ;
+    font-size: 25px;
+}
